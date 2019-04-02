@@ -1,0 +1,15 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic React Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "React"
+  ],
+  "author": "Ramon Bezerra",
+  "license": "Apache-2.0"
+}
