@@ -4,7 +4,7 @@
   "description": "Basic React Boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest ./src",
     "build": "npm run build-server && npm run build-client",
     "build-server": "babel src/server --out-dir ./dist",
     "build-client": "babel src/client --copy-files --out-dir ./dist/public",
@@ -20,6 +20,9 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/runtime": "^7.4.2",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "jest": "^24.6.0"
