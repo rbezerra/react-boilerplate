@@ -9,6 +9,7 @@ module.exports = {
     module: {
         rules
     },
+    cache: false,
     resolve: {
         modules: ['src', 'node_modules'],
         extensions: ['*', '.js', '.scss', '.css']
